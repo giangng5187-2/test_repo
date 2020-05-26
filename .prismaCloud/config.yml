@@ -18,7 +18,7 @@ terraform_version: 0.12
 # TF 12 Parameters
 terraform_012_parameters:
 ## No Variables
-- root_module: scan/terraform12novariablemodule/
+- root_module: /scan/terraform12novariablemodule/
 # - root_module: scan/first-class-expressions/
 # - root_module: scan/for-each-for-resources/
 # - root_module: scan/new-template-syntax/
@@ -26,9 +26,9 @@ terraform_012_parameters:
 # - root_module: scan/for-expressions/
 # - root_module: scan/rich-value-types/
 ## Variables
-- root_module: scan/terraform12module/
+- root_module: /scan/terraform12module/
   variable_files: 
-  - 'scan/terraform12module/smelks.tfvars'
+  - '/scan/terraform12module/smelks.tfvars'
 #   variables:
 #   - name: check
 #     value: value
